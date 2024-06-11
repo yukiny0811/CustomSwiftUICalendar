@@ -6,16 +6,42 @@
 //
 
 import SwiftUI
+import CustomSwiftUICalendar
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            CustomSwiftUICalendar(year: 2024, month: 9, startsFromMonday: true) { year, month, day, cellWidth, cellHeight in
+                switch day {
+                case 0:
+                    Text("")
+                case 1:
+                    VStack {
+                        Text(String(Int(cellHeight)))
+                    }
+                    .frame(width: cellWidth, height: cellHeight)
+                    .background(.red)
+                case 15:
+                    VStack {
+                        Text(String(Int(cellHeight)))
+                    }
+                    .frame(width: cellWidth, height: cellHeight)
+                    .background(.red)
+                case 30:
+                    VStack {
+                        Text(String(day))
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(.red)
+                default:
+                    VStack {
+                        Text(String(day))
+                        Text("aaa")
+                    }
+                }
+            }
+            .navigationTitle("Test")
         }
-        .padding()
     }
 }
 
