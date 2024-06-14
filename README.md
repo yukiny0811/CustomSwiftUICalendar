@@ -10,7 +10,7 @@ Fully Customizable SwiftUI Calendar
 
 ## Usage
 
-### Basic
+### Sample1
 
 ```Sample1View.swift
 import SwiftUI
@@ -34,7 +34,7 @@ struct Sample1View: View {
 }
 ```
 
-### Some Decorations
+### Sample2
 
 ```Sample2View.swift
 import SwiftUI
@@ -66,7 +66,7 @@ struct Sample2View: View {
 }
 ```
 
-### More Decorations
+### Sample3
 
 ```Sample3View.swift
 struct Sample2View: View {
