@@ -9,42 +9,20 @@ import SwiftUI
 import CustomSwiftUICalendar
 
 struct ContentView: View {
+
+    @State var year = 2024
+    @State var month = 6
+
     var body: some View {
         NavigationStack {
-            CustomSwiftUICalendar(year: 2024, month: 9, startsFromMonday: true) { year, month, day, cellWidth, cellHeight in
-                switch day {
-                case 0:
-                    Text("")
-                case 1:
-                    VStack {
-                        Text(String(Int(cellHeight)))
-                    }
-                    .frame(width: cellWidth, height: cellHeight)
-                    .background(.red)
-                case 15:
-                    VStack {
-                        Text(String(Int(cellHeight)))
-                    }
-                    .frame(width: cellWidth, height: cellHeight)
-                    .background(.red)
-                case 30:
-                    VStack {
-                        Text(String(day))
-                    }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .background(.red)
-                default:
-                    VStack {
-                        Text(String(day))
-                        Text("aaa")
-                    }
-                }
+            SwiftUICalendarHorizontalScroll(
+                year: $year,
+                month: $month,
+                startsFromMonday: true
+            ){ year, month, day, cellWidth, cellHeight in
+                Text(day == 0 ? "" : String(day))
             }
-            .navigationTitle("Test")
+            .navigationTitle(String(format: "%04d", year) + " " + String(format: "%02d", month))
         }
     }
-}
-
-#Preview {
-    ContentView()
 }

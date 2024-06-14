@@ -1,6 +1,6 @@
 //
 //  DayCell.swift
-//  
+//
 //
 //  Created by Yuki Kuwashima on 2024/06/11.
 //
@@ -8,10 +8,10 @@
 import Foundation
 
 struct DayCell: Identifiable, Equatable, Hashable {
-    
+
     let id: String = UUID().uuidString
     let day: Int
-
+    
     init(day: Int) {
         self.day = day
     }

@@ -1,5 +1,5 @@
 //
-//  CustomSwiftUICalendar.swift
+//  SwiftUICalendar.swift
 //
 //
 //  Created by Yuki Kuwashima on 2024/06/10.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct CustomSwiftUICalendar<Cell: View>: View {
+public struct SwiftUICalendar<Cell: View>: View {
 
     let year: Int
     let month: Int
@@ -31,7 +31,7 @@ public struct CustomSwiftUICalendar<Cell: View>: View {
         self.chunkedCellDayArray = CalendarUtil.chunkTo6Rows(
             array: cellDayArray
         ).map {
-            $0.map { 
+            $0.map {
                 DayCell(day: $0)
             }
         }
