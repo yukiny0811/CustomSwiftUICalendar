@@ -2,6 +2,12 @@
 
 Fully Customizable SwiftUI Calendar
 
+## Example Views
+
+| Sample1 | Sample2 | Sample3 |
+| - | - | - |
+| ![Simulator Screen Recording - iPhone 15 Pro - 2024-06-15 at 00 00 41](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/5ab09971-6df3-4454-ba16-c38c20f5cdc7) | ![Simulator Screenshot - iPhone 15 Pro - 2024-06-14 at 23 58 12](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/5e2af3f6-91aa-4524-9e08-0526c1247d7e) | ![Simulator Screenshot - iPhone 15 Pro - 2024-06-15 at 00 10 03](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/8a2b54fd-b625-437c-a73f-32cf7122f76f) |
+
 ## Usage
 
 ### Basic Usage
@@ -111,9 +117,6 @@ struct Sample2View: View {
     }
 }
 ```
-| Sample1 | Sample2 | Sample3 |
-| - | - | - |
-| ![Simulator Screen Recording - iPhone 15 Pro - 2024-06-15 at 00 00 41](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/5ab09971-6df3-4454-ba16-c38c20f5cdc7) | ![Simulator Screenshot - iPhone 15 Pro - 2024-06-14 at 23 58 12](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/5e2af3f6-91aa-4524-9e08-0526c1247d7e) | ![Simulator Screenshot - iPhone 15 Pro - 2024-06-15 at 00 10 03](https://github.com/yukiny0811/CustomSwiftUICalendar/assets/28947703/8a2b54fd-b625-437c-a73f-32cf7122f76f) |
 
 ## Credits
 
