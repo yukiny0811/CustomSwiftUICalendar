@@ -10,7 +10,7 @@ Fully Customizable SwiftUI Calendar
 
 ## Usage
 
-### Basic Usage
+### Basic
 
 ```Sample1View.swift
 import SwiftUI
