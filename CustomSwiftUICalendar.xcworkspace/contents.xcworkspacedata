@@ -4,7 +4,4 @@
    <FileRef
       location = "group:CustomSwiftUICalendarExample/CustomSwiftUICalendarExample.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:CustomSwiftUICalendar">
-   </FileRef>
 </Workspace>
