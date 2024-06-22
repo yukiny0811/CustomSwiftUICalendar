@@ -117,7 +117,7 @@
 			);
 			mainGroup = 5691FEEF2C146FF000D76923;
 			packageReferences = (
-				5691FF092C146FFE00D76923 /* XCLocalSwiftPackageReference "../CustomSwiftUICalendar" */,
+				5691FF092C146FFE00D76923 /* XCLocalSwiftPackageReference ".." */,
 			);
 			productRefGroup = 5691FEF92C146FF000D76923 /* Products */;
 			projectDirPath = "";
@@ -356,9 +356,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		5691FF092C146FFE00D76923 /* XCLocalSwiftPackageReference "../CustomSwiftUICalendar" */ = {
+		5691FF092C146FFE00D76923 /* XCLocalSwiftPackageReference ".." */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../CustomSwiftUICalendar;
+			relativePath = ..;
 		};
 /* End XCLocalSwiftPackageReference section */
 

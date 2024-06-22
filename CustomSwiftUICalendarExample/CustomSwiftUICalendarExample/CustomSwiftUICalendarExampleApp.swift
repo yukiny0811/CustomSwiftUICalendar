@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomSwiftUICalendarExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Sample2View()
         }
     }
 }
